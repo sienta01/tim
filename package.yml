@@ -29,3 +29,24 @@ matches:
     CTA kepala
 
     Terapi spesifik menunggu hasil CTA
+
+- trigger: ";o"
+  replace: |
+    O/
+    TD: mmHg
+    N: x/menit
+    RR: x/menit
+    T: C
+    SpO2: %
+
+    Klinis neurologis:
+    GCS EVM
+    Meningeal sign (-)
+    Pupil 3 mm / 3 mm
+    Reflek cahaya +/+
+    Paresis N. Kranialis
+    Motorik
+    Sensorik
+    Otonom
+    Refleks fisiologis
+    Refleks patologis
