@@ -1,5 +1,5 @@
 matches:
-- trigger: ";uuuu"
+- trigger: ";u"
   replace: "\U0001F64F"
 
 - trigger: ";cs"
