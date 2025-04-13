@@ -1,0 +1,31 @@
+matches:
+- trigger: ";uuuu"
+  replace: "\U0001F64F"
+
+- trigger: ";cs"
+  replace: |
+    O/
+    Siriraj: 
+    NIHSS: 
+    mRS pre hospital:
+
+    A/
+    Susp. Vascular event berulang ec susp SNH dd SH onset 
+
+    P/
+    Diagnostik: Cek Lab (DL, FH, faal ginjal, faal hati, CRP), foto toraks, CTA kepala
+    Terapi: menunggu hasil CTA
+    Monitoring: keluhan, defisit neurologis baru
+
+    I/
+    MRS
+    Aktivasi code stroke pada
+
+    IVFD NaCl 0.9% 20 tpm
+    Pasang infus 18G cubiti kanan
+
+    Cek lab (DL, FH, faal ginjal, faal hati, CRP)
+    Foto toraks
+    CTA kepala
+
+    Terapi spesifik menunggu hasil CTA
