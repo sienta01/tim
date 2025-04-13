@@ -50,3 +50,11 @@ matches:
     Otonom
     Refleks fisiologis
     Refleks patologis
+
+- trigger: ";now"
+  replace: "{{mytime}}"
+  vars:
+    - name: mytime
+      type: date
+      params:
+        format: "%d/%m/%Y %H:%M"
