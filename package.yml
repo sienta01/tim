@@ -102,3 +102,9 @@ matches:
 - trigger: ";lead"
   replace: "(Leader Neuro)"
 
+- trigger: ";datang"
+  replace: |
+    Datang:
+    Diperiksa:
+    BPD:
+    Pindah:
