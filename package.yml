@@ -76,7 +76,7 @@ matches:
 - trigger: ";time"
   replace: "{{timenow}}"
   vars:
-    - name: datenow
+    - name: timenow
       type: date
       params:
         format: "%H:%M"
