@@ -65,13 +65,21 @@ matches:
 - trigger: ";lab"
   replace: "LABORATORIUM:"
 
-- trigger: ";today"
+- trigger: ";date"
   replace: "{{datetoday}}"
   vars:
     - name: datetoday
       type: date
       params:
-        format: "%d/%m/%Y"
+        format: "%d/%m/%y"
+
+- trigger: ";time"
+  replace: "{{timenow}}"
+  vars:
+    - name: datenow
+      type: date
+      params:
+        format: "%H:%M"
 
 - trigger: ";yaml"
   replace: |
