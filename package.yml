@@ -124,3 +124,6 @@ matches:
   replace: |
     Hunt and Hess:
     Modified Fisher scale: grade
+
+- trigger: ";cekdl"
+  replace: "Cek lab (DL, faal hemostasis, faal hati, faal ginjal, glukosa sewaktu, Na, K, Cl)"
