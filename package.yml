@@ -58,3 +58,39 @@ matches:
       type: date
       params:
         format: "%d/%m/%Y %H:%M"
+
+- trigger: ";rad"
+  replace: "RADIOLOGI:"
+
+- trigger: ";lab"
+  replace: "LABORATORIUM:"
+
+- trigger: ";today"
+  replace: "{{datetoday}}"
+  vars:
+    - name: datetoday
+      type: date
+      params:
+        format: "%d/%m/%Y"
+
+- trigger: ";yaml"
+  replace: |
+    - trigger: ""
+      replace: ""
+
+- trigger: ";p"
+  replace: |
+    P/
+    Diagnostik:
+    Terapi: 
+    Monitoring:
+
+- trigger: ";i"
+  replace: |
+    I/
+    MRS
+    IVFD NaCl 0.9% 20 tpm
+
+- trigger: ";lead"
+  replace: "(Leader Neuro)"
+
