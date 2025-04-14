@@ -108,3 +108,19 @@ matches:
     Diperiksa:
     BPD:
     Pindah:
+
+- trigger: ";nihss"
+  replace: |
+    Siriraj:
+    NIHSS:
+    mRS pre stroke:
+
+- trigger: ";sh"
+  replace: |
+    ICH score:
+    sICH score"
+
+- trigger: ";sah"
+  replace: |
+    Hunt and Hess:
+    Modified Fisher scale: grade
