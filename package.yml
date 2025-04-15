@@ -130,3 +130,33 @@ matches:
 
 - trigger: ";mon"
   replace: "keluhan, defisit neurologis baru"
+
+- trigger: ";stroke"
+  replace: |
+    Anamnesis singkat di code stroke 
+    - identitas
+    - onset 
+    - last known seen well
+    - Gejala : Face, Arm, Speech, Vision (gaze kontra hemiparese umumnya), Afasia, Neglect, gejala posterior 
+    - saat aktivitas / tidak
+    - Gradual / tidak
+    - Faktor resiko RPD
+    - RPO
+    - indikasi kontra indikasi trombolisis : RPO antikoagulan, hamil, kejang saat onset, tods paralysis, perdarahan aktif, riw perdarahan GIT/Uro 3 minggu, trauma akut, trauma kepala, sakit jantung (IE, diseksi aorta, pericarditis, post MI), stroke 3 bulan, riwayat operasi besar
+    - indikasi kontra indikasi trombektomi : mRS 0-1 (modal klinis pasien), gejala LVO (s.d M1)
+
+    Objektif 
+    - Siriraj
+    - NIHSS
+    - mRS pre stroke
+    - FAST VAN
+
+    Check list trombolisis, trombek —> jika ada  kontra indikasi dicantumkan
+
+    Setelah code stroke wajib mencantumkan :
+    - door to code
+    - door to ct 
+    - door to needle bila trombolisis
+    - door to puncture bila trombek
+    - door to cath 
+    - door to revaskularization
