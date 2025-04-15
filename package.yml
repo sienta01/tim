@@ -30,7 +30,7 @@ matches:
 
     Terapi spesifik menunggu hasil CTA
 
-- trigger: ";o"
+- trigger: ";o/"
   replace: |
     O/
     TD: mmHg
@@ -86,14 +86,14 @@ matches:
     - trigger: ""
       replace: ""
 
-- trigger: ";p"
+- trigger: ";p/"
   replace: |
     P/
     Diagnostik:
     Terapi: 
     Monitoring:
 
-- trigger: ";i"
+- trigger: ";i/"
   replace: |
     I/
     MRS
@@ -127,3 +127,6 @@ matches:
 
 - trigger: ";cekdl"
   replace: "Cek lab (DL, faal hemostasis, faal hati, faal ginjal, glukosa sewaktu, Na, K, Cl)"
+
+- trigger: ";mon"
+  replace: "keluhan, defisit neurologis baru"
