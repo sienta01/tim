@@ -160,3 +160,9 @@ matches:
     - door to puncture bila trombek
     - door to cath 
     - door to revaskularization
+
+- trigger: ";omeiv"
+  replace: "Omeprazole 40 mg tiap 12 jam IV"
+
+- trigger: ";pctkp"
+  replace: "Parasetamol 1000 mg tiap 8 jam IO kp nyeri NPRS >3"
