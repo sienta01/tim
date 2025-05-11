@@ -166,3 +166,27 @@ matches:
 
 - trigger: ";pctkp"
   replace: "Parasetamol 1000 mg tiap 8 jam IO kp nyeri NPRS >3"
+
+- trigger: ";filedatetime"
+  replace: "{{fildedatetime}}"
+  vars:
+    - name: fildedatetime
+      type: date
+      params:
+        format: "%yy.%mm.%dd-%H.%M"
+
+- trigger: ";filedate"
+  replace: "{{filedate}}"
+  vars:
+    - name: filedate
+      type: date
+      params:
+        format: "%yy.%mm.%dd"
+
+- trigger: ";filetime"
+  replace: "{{filetime}}"
+  vars:
+    - name: filetime
+      type: date
+      params:
+        format: "%H.%M"        
