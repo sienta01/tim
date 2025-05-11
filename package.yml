@@ -173,7 +173,7 @@ matches:
     - name: fildedatetime
       type: date
       params:
-        format: "%yyyy.%mmmm.%dd-%H.%M"
+        format: "%YYYY.%mm.%dd-%H.%M"
 
 - trigger: ";filedate"
   replace: "{{filedate}}"
@@ -181,7 +181,7 @@ matches:
     - name: filedate
       type: date
       params:
-        format: "%yyyy.%mmmm.%dd"
+        format: "%YYYY.%mm.%dd"
 
 - trigger: ";filetime"
   replace: "{{filetime}}"
