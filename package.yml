@@ -194,9 +194,9 @@ matches:
 - trigger: ";moca"
   replace: |
     Tes kognitif {{datetoday}}
-    MoCA-Ina:
-    ADL:
-    IADL:
+    MoCA-Ina: /30
+    ADL: /18
+    IADL: /14
   vars:
   - name: datetoday
     type: date
