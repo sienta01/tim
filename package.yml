@@ -190,3 +190,15 @@ matches:
       type: date
       params:
         format: "%H.%M"        
+
+- trigger: ";moca"
+  replace: |
+    Tes kognitif {{datetoday}}
+    MoCA-Ina:
+    ADL:
+    IADL:
+  vars:
+  - name: datetoday
+    type: date
+    params:
+      format: "%d/%m/%y"
