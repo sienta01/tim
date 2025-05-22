@@ -202,3 +202,9 @@ matches:
     type: date
     params:
       format: "%d/%m/%y"
+
+- trigger: ";em"
+  replace: "—"
+
+- trigger: ";en"
+  replace: "–"
