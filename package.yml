@@ -208,3 +208,6 @@ matches:
 
 - trigger: ";en"
   replace: "–"
+
+- trigger: ";hcu"
+  replace: "Kepada Yth. TS Intensivist. Mohon konsul terkait rawat HCU untuk pasien ini. BTK Coll."
