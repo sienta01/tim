@@ -211,3 +211,6 @@ matches:
 
 - trigger: ";hcu"
   replace: "Kepada Yth. TS Intensivist. Mohon konsul terkait rawat HCU untuk pasien ini. BTK Coll."
+
+- trigger: ";loc"
+  replace: "localhost:"
