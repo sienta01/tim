@@ -214,3 +214,13 @@ matches:
 
 - trigger: ";loc"
   replace: "localhost:"
+
+- trigger: ";pitc"
+  replace: |
+    Kepada Yth. TS PITC,
+    Mohon konsul pasien untuk pemeriksaan PITC. BTK Coll.
+
+- trigger: ";urm"
+  replace: |
+    Kepada Yth. TS URM,
+    Mohon konsul pasien untuk rehabilitasi. BTK Coll.
