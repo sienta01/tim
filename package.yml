@@ -220,7 +220,7 @@ matches:
     Kepada Yth. TS PITC,
     Mohon konsul pasien untuk pemeriksaan PITC. BTK Coll.
 
-- trigger: ";urm"
+- trigger: ";rm"
   replace: |
     Kepada Yth. TS URM,
     Mohon konsul pasien untuk rehabilitasi. BTK Coll.
