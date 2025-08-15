@@ -224,3 +224,6 @@ matches:
   replace: |
     Kepada Yth. TS URM,
     Mohon konsul pasien untuk rehabilitasi. BTK Coll.
+
+- trigger: ";=="
+  replace: "=========================="
