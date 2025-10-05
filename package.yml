@@ -229,7 +229,7 @@ matches:
   replace: "=========================="
 
 - trigger: ":compstroke"
-  replace: "I69.4
+  replace: "I69.4"
   
 - trigger: ":ht"
   replace: "I10"
