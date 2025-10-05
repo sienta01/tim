@@ -227,3 +227,9 @@ matches:
 
 - trigger: ";=="
   replace: "=========================="
+
+- trigger: "`cstroke"
+  replace: "I69.4
+  
+- trigger: "`ht"
+  replace: "I10"
