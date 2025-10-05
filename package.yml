@@ -228,8 +228,8 @@ matches:
 - trigger: ";=="
   replace: "=========================="
 
-- trigger: "`cstroke"
+- trigger: ":compstroke"
   replace: "I69.4
   
-- trigger: "`ht"
+- trigger: ":ht"
   replace: "I10"
