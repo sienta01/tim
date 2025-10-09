@@ -257,3 +257,6 @@ matches:
 
 - trigger: ":tth"
   replace: "G44.2"
+
+- trigger: ":lbp"
+  replace: "M54.5"
