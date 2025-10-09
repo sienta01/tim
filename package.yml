@@ -252,5 +252,5 @@ matches:
 - trigger: ":compsh"
   replace: "I69.2"
 
-- trigger: ""
-  replace: ""
+- trigger: ":mps"
+  replace: "M79.1"
