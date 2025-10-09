@@ -254,3 +254,6 @@ matches:
 
 - trigger: ":mps"
   replace: "M79.1"
+
+- trigger: ":tth"
+  replace: "G44.2"
