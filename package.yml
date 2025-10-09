@@ -83,7 +83,7 @@ matches:
 
 - trigger: ";yaml"
   replace: |
-    - trigger: ""
+    - trigger: "$|$"
       replace: ""
 
 - trigger: ";p/"
@@ -233,3 +233,24 @@ matches:
   
 - trigger: ":ht"
   replace: "I10"
+
+- trigger: ":compsnh"
+  replace: "I69.3"
+
+- trigger: ":dm"
+  replace: "E11.9"
+
+- trigger: ":dyslip"
+  replace: "E78.5"
+
+- trigger: ":af"
+  replace: "I48.9"
+
+- trigger: ":chf"
+  replace: "I25.9"
+
+- trigger: ":compsh"
+  replace: "I69.2"
+
+- trigger: ""
+  replace: ""
