@@ -260,3 +260,6 @@ matches:
 
 - trigger: ":lbp"
   replace: "M54.5"
+
+- trigger: ":frozenshoulder"
+  replace: "M75.0"
