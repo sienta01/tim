@@ -271,4 +271,4 @@ matches:
   replace: "G20"
 
 - trigger: ";speed"
-  replace: ".\speedtest.exe"
+  replace: ".\\speedtest.exe"
