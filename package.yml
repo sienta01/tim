@@ -266,3 +266,9 @@ matches:
 
 - trigger: ";au"
   replace: "E79.0"
+
+- trigger: ":parkinson"
+  replace: "G20"
+
+- trigger: ";speed"
+  replace: ".\speedtest.exe"
