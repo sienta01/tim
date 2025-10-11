@@ -228,38 +228,41 @@ matches:
 - trigger: ";=="
   replace: "=========================="
 
-- trigger: ":compstroke"
+- trigger: ";compstroke"
   replace: "I69.4"
   
-- trigger: ":ht"
+- trigger: ";ht"
   replace: "I10"
 
-- trigger: ":compsnh"
+- trigger: ";compsnh"
   replace: "I69.3"
 
-- trigger: ":dm"
+- trigger: ";dm"
   replace: "E11.9"
 
-- trigger: ":dyslip"
+- trigger: ";dislip"
   replace: "E78.5"
 
-- trigger: ":af"
+- trigger: ";af"
   replace: "I48.9"
 
-- trigger: ":chf"
-  replace: "I25.9"
+- trigger: ";chf"
+  replace: "I50"
 
-- trigger: ":compsh"
+- trigger: ";compsh"
   replace: "I69.2"
 
-- trigger: ":mps"
+- trigger: ";mps"
   replace: "M79.1"
 
-- trigger: ":tth"
+- trigger: ";tth"
   replace: "G44.2"
 
-- trigger: ":lbp"
+- trigger: ";lbp"
   replace: "M54.5"
 
-- trigger: ":frozenshoulder"
+- trigger: ";frozenshoulder"
   replace: "M75.0"
+
+- trigger: ";au"
+  replace: "E79.0"
