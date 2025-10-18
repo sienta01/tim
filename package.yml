@@ -238,8 +238,8 @@ matches:
   replace: "I69.3"
 
 - trigger: ";dm"
-  replace: "E11.9"
-
+  replace: "E11"
+  
 - trigger: ";dislip"
   replace: "E78.5"
 
@@ -272,3 +272,9 @@ matches:
 
 - trigger: ";speed"
   replace: ".\\speedtest.exe"
+
+- trigger: ";bulan"
+  replace: "Kontrol 1 bulan"
+
+- trigger: ";minggu"
+  replace: "Kontrol 1 minggu"
