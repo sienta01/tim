@@ -278,3 +278,6 @@ matches:
 
 - trigger: ";minggu"
   replace: "Kontrol 1 minggu"
+
+- trigger: ";risk"
+  replace: "Cek faktor risiko tiap 3 bulan → next: $|$"
