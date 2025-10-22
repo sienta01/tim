@@ -261,26 +261,26 @@ matches:
 - trigger: ";lbp"
   replace: "M54.5"
 
-- trigger: ";frozenshoulder"
+- trigger: ";frozen"
   replace: "M75.0"
 
 - trigger: ";au"
   replace: "E79.0"
 
-- trigger: ":parkinson"
+- trigger: ":parki"
   replace: "G20"
 
 - trigger: ";speed"
   replace: ".\\speedtest.exe"
 
-- trigger: ";bulan"
+- trigger: ";bul"
   replace: "Kontrol 1 bulan"
 
-- trigger: ";minggu"
+- trigger: ";ming"
   replace: "Kontrol 1 minggu"
 
 - trigger: ";risk"
   replace: "Cek faktor risiko tiap 3 bulan → next: $|$"
 
-- trigger: ";epilep"
+- trigger: ";epi"
   replace: "G40"
