@@ -284,3 +284,9 @@ matches:
 
 - trigger: ";epi"
   replace: "G40"
+
+- trigger: ";oa"
+  replace: "M17"
+
+- trigger: ";bppv"
+  replace: "H81.1"
