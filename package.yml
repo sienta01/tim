@@ -118,7 +118,7 @@ matches:
 - trigger: ";sh"
   replace: |
     ICH score:
-    sICH score"
+    sICH score
 
 - trigger: ";sah"
   replace: |
