@@ -290,3 +290,6 @@ matches:
 
 - trigger: ";bppv"
   replace: "H81.1"
+
+- trigger: ";lan"
+  replace: "Terapi lanjutan"
