@@ -293,3 +293,11 @@ matches:
 
 - trigger: ";lan"
   replace: "Terapi lanjutan"
+
+- trigger: ";etia"
+  replace: "CPPT ETIA {{datetoday}}"
+  vars:
+    - name: datetoday
+      type: date
+      params:
+        format: "%d/%m/%y"
