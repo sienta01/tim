@@ -306,8 +306,8 @@ matches:
       params:
         format: "%d/%m/%y"
 
-- trigger: ";tab1"
+- trigger: ";["
   replace: "    "
 
-- trigger: ";tab2"
+- trigger: ";]"
   replace: "        "
