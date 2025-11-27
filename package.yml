@@ -305,3 +305,9 @@ matches:
       type: date
       params:
         format: "%d/%m/%y"
+
+- trigger: ";tab1"
+  replace: "    "
+
+- trigger: ";tab2"
+  replace: "        "
