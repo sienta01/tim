@@ -311,3 +311,6 @@ matches:
 
 - trigger: ";]"
   replace: "        "
+
+- trigger: ";fr"
+  replace: "Klaim BPJS Rehab Medik"
