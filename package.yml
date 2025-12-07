@@ -314,3 +314,15 @@ matches:
 
 - trigger: ";fr"
   replace: "Klaim BPJS Rehab Medik"
+
+- trigger: ";npm"
+  replace: |
+    CPPT NPM {{datetoday}}
+
+    
+    
+  vars:
+    - name: datetoday
+      type: date
+      params:
+        format: "%d/%m/%y"
