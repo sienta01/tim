@@ -326,3 +326,6 @@ matches:
       type: date
       params:
         format: "%d/%m/%y"
+
+- trigger: ";tim"
+  replace: "espanso package update tim"
