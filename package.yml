@@ -341,3 +341,6 @@ matches:
       type: date
       params:
         format: "%d/%m/%y"
+
+- trigger: ";nama"
+  replace: "Derryl Ravertio Timothy Subroto"
