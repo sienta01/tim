@@ -332,7 +332,7 @@ matches:
 
 - trigger: ";nefro"
   replace: |
-    CPPT NPM {{datetoday}}
+    CPPT Nefro {{datetoday}}
 
     
     
