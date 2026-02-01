@@ -175,7 +175,7 @@ matches:
       params:
         format: "%Y.%m.%d-%H.%M"
 
-- trigger: ";filedate"
+- trigger: ";daate"
   replace: "{{filedate}}"
   vars:
     - name: filedate
