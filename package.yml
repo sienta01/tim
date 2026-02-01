@@ -344,3 +344,14 @@ matches:
 
 - trigger: ";nama"
   replace: "Derryl Ravertio Timothy Subroto"
+
+- trigger: ";nefro"
+  replace: |
+    CPPT Neonatologi {{datetoday}}
+
+    
+  vars:
+    - name: datetoday
+      type: date
+      params:
+        format: "%d/%m/%y"
