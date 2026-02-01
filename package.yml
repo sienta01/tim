@@ -345,7 +345,7 @@ matches:
 - trigger: ";nama"
   replace: "Derryl Ravertio Timothy Subroto"
 
-- trigger: ";nefro"
+- trigger: ";neo"
   replace: |
     CPPT Neonatologi {{datetoday}}
 
