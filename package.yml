@@ -187,18 +187,10 @@ matches:
   replace: "{{nextdate}}"
   vars:
     - name: nextdate
-      type: script
+      type: date
       params:
-        lang: javascript
-        script: |
-          const today = new Date();
-          today.setDate(today.getDate() + 1);
-
-          const yyyy = today.getFullYear();
-          const mm = String(today.getMonth() + 1).padStart(2, '0');
-          const dd = String(today.getDate()).padStart(2, '0');
-
-          return `${yyyy}.${mm}.${dd}`;
+        format: "%Y.%m.%d"
+        offset: 86400
 
 - trigger: ";filetime"
   replace: "{{filetime}}"
