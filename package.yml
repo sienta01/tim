@@ -364,3 +364,14 @@ matches:
       type: date
       params:
         format: "%d/%m/%y"
+
+- trigger: ";hemato"
+  replace: |
+    CPPT Hematologi {{datetoday}}
+
+    
+  vars:
+    - name: datetoday
+      type: date
+      params:
+        format: "%d/%m/%y"
