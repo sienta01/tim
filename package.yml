@@ -367,7 +367,7 @@ matches:
 
 - trigger: ";hemato"
   replace: |
-    CPPT Hematologi {{datetoday}}
+    CPPT Hematoonkologi {{datetoday}}
 
     
   vars:
