@@ -375,3 +375,14 @@ matches:
       type: date
       params:
         format: "%d/%m/%y"
+
+- trigger: ";neuro"
+  replace: |
+    CPPT Hematoonkologi {{datetoday}}
+
+    
+  vars:
+    - name: datetoday
+      type: date
+      params:
+        format: "%d/%m/%y"
