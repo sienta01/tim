@@ -378,7 +378,7 @@ matches:
 
 - trigger: ";neuro"
   replace: |
-    CPPT Hematoonkologi {{datetoday}}
+    CPPT Neurologi {{datetoday}}
 
     
   vars:
