@@ -386,3 +386,14 @@ matches:
       type: date
       params:
         format: "%d/%m/%y"
+
+- trigger: ";cpptkar"
+  replace: |
+    CPPT Kardiologi {{datetoday}}
+
+    
+  vars:
+    - name: datetoday
+      type: date
+      params:
+        format: "%d/%m/%y"
