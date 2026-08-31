@@ -386,3 +386,14 @@ matches:
       type: date
       params:
         format: "%d/%m/%y"
+
+- trigger: ";alim"
+  replace: |
+    CPPT Alergi Imunologi {{datetoday}}
+
+    
+  vars:
+    - name: datetoday
+      type: date
+      params:
+        format: "%d/%m/%y"        
