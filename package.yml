@@ -387,13 +387,22 @@ matches:
       params:
         format: "%d/%m/%y"
 
-- trigger: ";alim"
+- trigger: ";cpptkar"
   replace: |
-    CPPT Alergi Imunologi {{datetoday}}
-
-    
+    CPPT Kardiologi {{datetoday}}
+   
   vars:
     - name: datetoday
       type: date
       params:
-        format: "%d/%m/%y"        
+        format: "%d/%m/%y"
+
+- trigger: ";alim"
+  replace: |
+    CPPT Alergi Imunologi {{datetoday}}
+   
+  vars:
+    - name: datetoday
+      type: date
+      params:
+        format: "%d/%m/%y"
