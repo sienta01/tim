@@ -406,3 +406,13 @@ matches:
       type: date
       params:
         format: "%d/%m/%y"
+
+- trigger: ";gastro"
+  replace: |
+    CPPT Gastrohepatologi {{datetoday}}
+   
+  vars:
+    - name: datetoday
+      type: date
+      params:
+        format: "%d/%m/%y"        
