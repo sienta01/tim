@@ -418,7 +418,7 @@ matches:
       params:
         format: "%d/%m/%y"
 
-- trigger: ";cpptrespi"
+- trigger: ";trespi"
   replace: |
     CPPT Respirologi {{datetoday}}
     
