@@ -397,3 +397,14 @@ matches:
       type: date
       params:
         format: "%d/%m/%y"
+
+- trigger: ";cpptrespi"
+  replace: |
+    CPPT Respirologi {{datetoday}}
+
+    
+  vars:
+    - name: datetoday
+      type: date
+      params:
+        format: "%d/%m/%y"
